@@ -43,7 +43,7 @@ public class EndSeaShadowRenderer {
     private static final ObjectArrayList<Vector3dc> voidAnchors = new ObjectArrayList<>();
 
     public static boolean isEnabled() {
-        return true;
+        return false;
     }
 
     public static void renderShadowMap(final VeilRenderLevelStageEvent.Stage stage, final LevelRenderer levelRenderer, final MultiBufferSource.BufferSource bufferSource, final MatrixStack matrixStack, final Matrix4fc frustumMatrix, final Matrix4fc projectionMatrix, final int renderTick, final DeltaTracker deltaTracker, final Camera camera, final Frustum frustum) {
